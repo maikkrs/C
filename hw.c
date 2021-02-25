@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h> //strstr - busca dentro de string
+#include <string.h> //strstr - busca dentro de string memset
 #include <ctype.h> //
 
 #define tope 50
@@ -7,8 +7,10 @@
 char input[tope];
 int c, i= 0;
 
-int main(){
+int main(void){
 	while ((c = getchar()) != EOF){
+		memset(input,' ', sizeof(input));
+
 		if (c == '<'){
 			input[i] = c;
 			while (c != '>'){
@@ -30,7 +32,7 @@ int main(){
 				input[i] = c;
 			}
 			printf("%s\n", input);
-			 memset(input,'\0', tope);
+		
 		}
 		if (strstr (input, "<strong>") != NULL){
 			for (i = 0, input[0]= ' ';strstr (input, "</strong>") == NULL; ++i){
@@ -41,9 +43,9 @@ int main(){
 				input[i] = c;
 			}
 			printf("%s\n", input);
-			 memset(input,'\0', tope);
+			
 		}
-		memset(input,' ', tope);
+	
 	}
 	return 0;
 }
