@@ -2,15 +2,14 @@
 #include <string.h> //strstr - busca dentro de string memset
 #include <ctype.h> //
 
-#define tope 50
+#define tope 200
 
-char input[tope];
+char input[tope], fill[tope];
 int c, i= 0;
 
 int main(void){
 	while ((c = getchar()) != EOF){
-		memset(input,' ', sizeof(input));
-
+		
 		if (c == '<'){
 			input[i] = c;
 			while (c != '>'){
@@ -24,28 +23,36 @@ int main(void){
 			printf("%c", c);
 		}
 		if (strstr (input, "<h1>") != NULL){
-			for (i = 0, input[0]= ' ';strstr (input, "</h1>") == NULL; ++i){
+			for (i = 0;strstr (fill, "</h1>") == NULL; ++i){
 				c = getchar();
 				if (isspace(c)){
 				c = '_';
 				}	
-				input[i] = c;
+				fill[i] = c;			
 			}
-			printf("%s\n", input);
-		
+			printf("%s\n", fill);
+			fill[0] = '\0';
 		}
 		if (strstr (input, "<strong>") != NULL){
-			for (i = 0, input[0]= ' ';strstr (input, "</strong>") == NULL; ++i){
+			for (i = 0;strstr (fill, "</strong>") == NULL; ++i){
 				c = getchar();
 				if (isspace(c)){
 				c = '_';
 				}	
-				input[i] = c;
+				fill[i] = c;
 			}
-			printf("%s\n", input);
-			
+			printf("%s\n", fill);
+			fill[0] = '\0';
 		}
-	
+		if (strstr (input, "<script") != NULL){
+			for (i = 0;strstr (fill, "</script>") == NULL; ++i){
+				c = getchar();
+				fill[i] = c;
+			}
+			fill[0] = '\0';
+		}
+		memset(input,' ', sizeof(input));
+
 	}
 	return 0;
 }
