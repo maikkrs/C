@@ -16,6 +16,7 @@
 #define alrdopen 2
 #define noerror 3
 
+//Primero fila (ej. A), enter, y después columna (ej. 2)
 
 int minascerc(int fila, int columna, char tablero[FILAS][COLUMNAS]) {
   int conteo = 0, prinfila, finfila, princol, fincol, MINA = -1;
@@ -102,7 +103,6 @@ void printtab(char tablero[FILAS][COLUMNAS], int abrir) {
   int MINA = -1;
   for (l = 0; l < FILAS; l++) {
     int m;
-    // Imprimir la letra de la fila
     printf(" %c ", letra);
     letra++;
     for (m = 0; m < COLUMNAS; m++) {
