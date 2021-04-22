@@ -7,8 +7,8 @@
 
 
 
-#define COLUMNAS 10
-#define FILAS 10
+#define COLUMNAS 8
+#define FILAS 8
 #define cerrado '#'
 #define abierto ' '
 #define nummin 20 
