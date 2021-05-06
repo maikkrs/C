@@ -3,6 +3,7 @@
 #include <string.h>
 
 #define MaxUs 20
+//Lo unico que hace es registrar usuarios y su password en un txt. No cumple otra funcion.
 // Crear un archivo de texto llamado usuarios.txt si es que se quiere registrar desde cero. 
 // El archivo dentro de la carpeta ya tiene algunos usuarios registrados como ejemplo.
 
