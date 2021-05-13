@@ -8,7 +8,7 @@ I chose to do this because my parents teach children in the week and there are t
 
 ## What does the program need to do?
 
-* Give four options:
+*allow the user to choose from four options:
     * register a student.
     * remove a student.
     * show earnings on a specific day.
