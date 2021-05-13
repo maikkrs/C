@@ -6,6 +6,8 @@ It is a program oriented towards people who are dedicated to giving some type of
 
 I chose to do this because my parents teach children in the week and there are times when they confuse each child's schedule, as well as what they charge each child.
 
+## What does the program need to do?
+
 ## Discord
 
 <a href="https://ibb.co/tPfKbsF"><img src="https://i.ibb.co/DgXW7CT/Captura-de-pantalla-2021-05-13-112324.png" alt="Captura-de-pantalla-2021-05-13-112324" border="0"></a>
