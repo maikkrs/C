@@ -13,11 +13,10 @@ I chose to do this because my parents teach children in the week and there are t
               * remove a student.
               * show earnings on a specific day.
               * show days and hours that are still free.
-
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
+* Bullet list
+    * Nested bullet
+        * Sub-nested bullet etc
+* Bullet list item 2
              
 ## Discord
 
