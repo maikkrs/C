@@ -9,11 +9,15 @@ I chose to do this because my parents teach children in the week and there are t
 ## What does the program need to do?
 
 * Give four options:
-* asd
               * register a student.
               * remove a student.
               * show earnings on a specific day.
               * show days and hours that are still free.
+
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
              
 ## Discord
 
