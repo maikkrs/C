@@ -8,12 +8,12 @@ I chose to do this because my parents teach children in the week and there are t
 
 ## What does the program need to do?
 
-* Give four options: 
-      *register a student
-      *remove a student
-      *view earnings on a specific day
-      *view days off
-
+* Give four options:
+              * register a student.
+              * remove a student.
+              * show earnings on a specific day.
+              * show days and hours that are still free.
+             
 ## Discord
 
 <a href="https://ibb.co/tPfKbsF"><img src="https://i.ibb.co/DgXW7CT/Captura-de-pantalla-2021-05-13-112324.png" alt="Captura-de-pantalla-2021-05-13-112324" border="0"></a>
