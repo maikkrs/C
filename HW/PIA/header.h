@@ -1,6 +1,6 @@
 #define MaxUs 20
 #define MaxLen 15
-#define cday 7
+#define labtime 10
 
 typedef struct
 {
@@ -11,7 +11,7 @@ typedef struct
     char topic[MaxLen];
     char day[MaxLen];
     int price[MaxLen];
-
+    int hrs[labtime];
 } User;
 
 void registerUser();

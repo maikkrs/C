@@ -5,17 +5,12 @@
 
 void registerUser()
 {
-    char name[MaxLen];
-    char name2[MaxLen];
-    char ln[MaxLen];
-    char ln2[MaxLen];
-    char topic[MaxLen];
-    char day[MaxLen];
-    char scan[MaxLen];
 
     User user;
-    int i, secn, dayn;
-    
+    char day[MaxLen];
+    int secn, dayn;
+
+
     printf("Select the day\n");
     printf("1 - Monday\n");
     printf("2 - Tuesday\n");
@@ -24,53 +19,41 @@ void registerUser()
     printf("5 - Friday\n");
     printf("6 - Saturday\n");
     printf("7 - Sunday\n");
+    printf("Select the day: ");
     scanf("%d", &dayn);
     printf("%ls", &dayn);
     if (1==dayn)
     {
     	memcpy (day, "Monday", sizeof "Monday");
-    	printf("%s\n", day);
-    	strcpy(user.day, day);
+
     }
     else if (2==dayn)
     {
     	memcpy (day, "Tuesday", sizeof "Tuesday");
-    	printf("%s\n", day);
-    	strcpy(user.day, day);
+
     }
     else if (3==dayn)
     {
-    	printf("%ls", &dayn);
     	memcpy (day, "Wednesday", sizeof "Wednesday");
-    	printf("%s\n", day);
-    	strcpy(user.day, day);
+
     }
     else if (4==dayn)
     {
-    	printf("%ls", &dayn);
     	memcpy (day, "Thursday", sizeof "Thursday");
-    	printf("%s\n", day);
-    	strcpy(user.day, day);
     }
     else if (5==dayn)
     {
-    	printf("%ls", &dayn);
     	memcpy (day, "Friday", sizeof "Friday");
-    	printf("%s\n", day);
-    	strcpy(user.day, day);
+
     }
     else if (6==dayn)
     {
-    	printf("%ls", &dayn);
     	memcpy (day, "Saturday", sizeof "Saturday");
-    	printf("%s\n", day);
-    	strcpy(user.day, day);
+
     }
     else if (7==dayn)
     {
     	memcpy (day, "Sunday", sizeof "Sunday");
-    	printf("%s\n", day);
-    	strcpy(user.day, day);
     }
     else
     {
@@ -78,17 +61,15 @@ void registerUser()
     	return;
     }
 
-    printf("Ingresa el primer nombre:");
-    scanf("%s",name);
-    strcpy(user.name , name);
+    printf("Ingresa el primer nombre: ");
+    scanf("%s",user.name);
 
     printf("Tiene segundo nombre?\n 1 - yes \n 2 - no \n");
     scanf("%d",&secn);
     if (1== secn)
     {
-    	printf("Ingresa el segundo nombre:");
-    	scanf("%s",name2);
-    	strcpy(user.name2, name2);
+    	printf("Ingresa el segundo nombre: ");
+    	scanf("%s",user.name2);
     }
     else if (2 == secn)
     {
@@ -100,16 +81,23 @@ void registerUser()
     	return;
     }
 
-    printf("Ingresa el primer apellido (Usa guion bajo para espacios):");
-    scanf("%s",ln);
-    strcpy(user.ln , ln);
+    printf("Ingresa el primer apellido (Usa guion bajo para espacios): ");
+    scanf("%s",user.ln);
 
-    printf("Ingresa la materia(Usa guion bajo para espacios):");
-    scanf("%s",topic);
-    strcpy(user.topic , topic);
+    printf("Ingresa el segundo apellido (Usa guion bajo para espacios): ");
+    scanf("%s",user.ln2);
 
-    printf("Ingresa el precio por la clase:");
-    scanf("%ls", user.price);
+    printf("Ingresa la materia(Usa guion bajo para espacios): ");
+    scanf("%s",user.topic);
+
+    printf("Ingresa el precio por la clase: ");
+    scanf("%ls",user.price);
+
+
+    printf("12 hrs \n 1 pm \n 2 pm \n 3 pm \n 4 pm \n 5 pm \n 6 pm \n 7 pm \n");
+    printf("Selecciona la hora a la que inicia (solo el numero):");
+    scanf("%ls",user.hrs);
+
 
     writeToFile(user, dayn);
       printf("Registrado con éxito\n");
