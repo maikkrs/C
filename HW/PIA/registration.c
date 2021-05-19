@@ -3,7 +3,7 @@
 #include <string.h>
 #include "header.h"
 
-void registerUser()
+int registerUser()
 {
 
     User user;
@@ -11,16 +11,16 @@ void registerUser()
     int secn, dayn;
 
 
-    printf("1 - Monday\n");
+    printf("\n\n1 - Monday\n");
     printf("2 - Tuesday\n");
     printf("3 - Wednesday\n");
     printf("4 - Thursday\n");
     printf("5 - Friday\n");
     printf("6 - Saturday\n");
-    printf("7 - Sunday\n");
+    printf("7 - Sunday\n\n");
     printf("Select the day: ");
     scanf("%d", &dayn);
-    
+
     if (1==dayn)
     {
     	memcpy (day, "Monday", sizeof "Monday");
@@ -57,7 +57,7 @@ void registerUser()
     else
     {
     	printf("Not a valid answer\n");
-    	return;
+    	return 0;
     }
 
     printf("Ingresa el primer nombre: ");
@@ -77,7 +77,7 @@ void registerUser()
     else
     {
     	printf("Not a valid answer\n");
-    	return;
+    	return 0;
     }
 
     printf("Ingresa el primer apellido (Usa guion bajo para espacios): ");
@@ -98,6 +98,8 @@ void registerUser()
     scanf("%ls",user.hrs);
 
 
-    writeToFile(user, dayn);
-      printf("Registrado con éxito\n");
+    writeToFile(user, dayn, secn);
+      printf("Registrado con éxito\n\n");
+
+      return main();
 }

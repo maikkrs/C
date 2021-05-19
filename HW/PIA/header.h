@@ -14,8 +14,9 @@ typedef struct
     int hrs[labtime];
 } User;
 
-void registerUser();
+int registerUser();
 void writeToFile();
 int printlist();
+int sumday();
+int main();
 
-User list[MaxUs];

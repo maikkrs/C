@@ -9,13 +9,13 @@ int printlist()
 	int list;
 	FILE *lst;
 
-	printf("1 - Monday\n");
+	printf("\n\n1 - Monday\n");
     printf("2 - Tuesday\n");
     printf("3 - Wednesday\n");
     printf("4 - Thursday\n");
     printf("5 - Friday\n");
     printf("6 - Saturday\n");
-    printf("7 - Sunday\n");
+    printf("7 - Sunday\n\n");
     printf("Select the day: ");
     scanf("%d", &list);
 
@@ -56,7 +56,7 @@ int printlist()
     	printf("Not a valid answer\n");
     	return 0;
     }
-    printf("%s\n", dayl);
+
 	lst = fopen(dayl, "r");
         if (lst == NULL)
         {
@@ -69,7 +69,8 @@ int printlist()
 	    printf ("%c", c);
 	    c = fgetc(lst);
 	}
-	
+	printf ("\n");
 	fclose(lst);
-	return 0;
+
+	return main();
 }

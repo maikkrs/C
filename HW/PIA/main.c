@@ -5,8 +5,9 @@
 
 
 
-void writeToFile(User u, int df)
+void writeToFile(User u, int df, int scndn)
 {
+    printf("%d\n", scndn);
     if (1==df)
     {
         FILE *fipo = fopen("monday.txt","a");
@@ -14,8 +15,11 @@ void writeToFile(User u, int df)
         fprintf(fipo,"%ls p.m.", u.hrs);
         fprintf(fipo,"\t\t$%ls", u.price);
         fprintf(fipo,"\t\t%s", u.topic);
-        fprintf(fipo,"\t\t%s", u.name);
-        fprintf(fipo," %s", u.name2);
+        fprintf(fipo,"\t\t\t%s", u.name);
+        if (1==scndn)
+        {
+         fprintf(fipo," %s", u.name2);
+        }
         fprintf(fipo," %s", u.ln);
         fprintf(fipo," %s\n", u.ln2);
         fclose(fipo);
@@ -27,7 +31,7 @@ void writeToFile(User u, int df)
         fprintf(fipo,"%ls hrs", u.hrs);
         fprintf(fipo,"\t\t$%ls", u.price);
         fprintf(fipo,"\t\t%s", u.topic);
-        fprintf(fipo,"\t\t%s", u.name);
+        fprintf(fipo,"\t\t\t%s", u.name);
         fprintf(fipo," %s", u.name2);
         fprintf(fipo," %s", u.ln);
         fprintf(fipo," %s\n", u.ln2);
@@ -40,7 +44,7 @@ void writeToFile(User u, int df)
         fprintf(fipo,"%ls hrs", u.hrs);
         fprintf(fipo,"\t\t$%ls", u.price);
         fprintf(fipo,"\t\t%s", u.topic);
-        fprintf(fipo,"\t\t%s", u.name);
+        fprintf(fipo,"\t\t\t%s", u.name);
         fprintf(fipo," %s", u.name2);
         fprintf(fipo," %s", u.ln);
         fprintf(fipo," %s\n", u.ln2);
@@ -53,7 +57,7 @@ void writeToFile(User u, int df)
         fprintf(fipo,"%ls hrs", u.hrs);
         fprintf(fipo,"\t\t$%ls", u.price);
         fprintf(fipo,"\t\t%s", u.topic);
-        fprintf(fipo,"\t\t%s", u.name);
+        fprintf(fipo,"\t\t\t%s", u.name);
         fprintf(fipo," %s", u.name2);
         fprintf(fipo," %s", u.ln);
         fprintf(fipo," %s\n", u.ln2);
@@ -66,7 +70,7 @@ void writeToFile(User u, int df)
         fprintf(fipo,"%ls hrs", u.hrs);
         fprintf(fipo,"\t\t$%ls", u.price);
         fprintf(fipo,"\t\t%s", u.topic);
-        fprintf(fipo,"\t\t%s", u.name);
+        fprintf(fipo,"\t\t\t%s", u.name);
         fprintf(fipo," %s", u.name2);
         fprintf(fipo," %s", u.ln);
         fprintf(fipo," %s\n", u.ln2);
@@ -79,7 +83,7 @@ void writeToFile(User u, int df)
         fprintf(fipo,"%ls hrs", u.hrs);
         fprintf(fipo,"\t\t$%ls", u.price);
         fprintf(fipo,"\t\t%s", u.topic);
-        fprintf(fipo,"\t\t%s", u.name);
+        fprintf(fipo,"\t\t\t%s", u.name);
         fprintf(fipo," %s", u.name2);
         fprintf(fipo," %s", u.ln);
         fprintf(fipo," %s\n", u.ln2);
@@ -93,7 +97,7 @@ void writeToFile(User u, int df)
         fprintf(fipo,"%ls hrs", u.hrs);
         fprintf(fipo,"\t\t$%ls", u.price);
         fprintf(fipo,"\t\t%s", u.topic);
-        fprintf(fipo,"\t\t%s", u.name);
+        fprintf(fipo,"\t\t\t%s", u.name);
         fprintf(fipo," %s", u.name2);
         fprintf(fipo," %s", u.ln);
         fprintf(fipo," %s\n", u.ln2);
