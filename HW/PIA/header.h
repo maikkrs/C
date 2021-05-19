@@ -16,6 +16,6 @@ typedef struct
 
 void registerUser();
 void writeToFile();
-int linecounter();
+int printlist();
 
 User list[MaxUs];

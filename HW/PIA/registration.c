@@ -11,7 +11,6 @@ void registerUser()
     int secn, dayn;
 
 
-    printf("Select the day\n");
     printf("1 - Monday\n");
     printf("2 - Tuesday\n");
     printf("3 - Wednesday\n");
@@ -21,7 +20,7 @@ void registerUser()
     printf("7 - Sunday\n");
     printf("Select the day: ");
     scanf("%d", &dayn);
-    printf("%ls", &dayn);
+    
     if (1==dayn)
     {
     	memcpy (day, "Monday", sizeof "Monday");

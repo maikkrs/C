@@ -11,7 +11,7 @@ void writeToFile(User u, int df)
     {
         FILE *fipo = fopen("monday.txt","a");
 
-        fprintf(fipo,"%ls hrs", u.hrs);
+        fprintf(fipo,"%ls p.m.", u.hrs);
         fprintf(fipo,"\t\t$%ls", u.price);
         fprintf(fipo,"\t\t%s", u.topic);
         fprintf(fipo,"\t\t%s", u.name);
@@ -107,6 +107,7 @@ int menu()
     int choice;
     printf("\n MENU \n");
     printf("1 - registrar\n");
+    printf("2 - ver lista por dia\n");
     printf("# - salir\n");
     printf("Ingresa una opción:");
     scanf("%d",&choice);
@@ -121,6 +122,10 @@ int main()
     if(1 == choice)
     {
         registerUser();
+    }
+    else if (2 == choice)
+    {
+        printlist();
     }
     else
     {
