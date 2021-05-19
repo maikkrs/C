@@ -15,14 +15,7 @@ void registerUser()
 
     User user;
     int i, secn, dayn;
-    FILE* mn = fopen("monday.txt", "w");
-    FILE* tu = fopen("tuesday.txt", "w");
-    FILE* wd = fopen("wednesday.txt", "w");
-    FILE* th = fopen("thursday.txt", "w");
-    FILE* fr = fopen("friday.txt", "w");
-    FILE* st = fopen("saturday.txt", "w");
-    FILE* sn = fopen("sunday.txt", "w");
-
+    
     printf("Select the day\n");
     printf("1 - Monday\n");
     printf("2 - Tuesday\n");
