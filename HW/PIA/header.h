@@ -3,7 +3,7 @@
 #define labtime 10
 
 
-typedef struct
+typedef struct //All the information of the student
 {
     char name[MaxLen];
     char name2[MaxLen];
