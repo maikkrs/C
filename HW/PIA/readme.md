@@ -11,7 +11,6 @@ I chose to do this because my parents teach children in the week and there are t
    
 ## What does the program do?
 
-* allow the user to choose from four options:
     * register a student.
     ```
    test
