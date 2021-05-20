@@ -17,11 +17,11 @@ int printlist()
     printf("6 - Saturday\n");
     printf("7 - Sunday\n\n");
     printf("Select the day: ");
-    scanf("%d", &list);
+    scanf("%d", &list);			//uses the same structure that registration to select the day.
 
     if (1==list)
     {
-    	memcpy (dayl, "monday.txt", sizeof "Monday.txt");
+    	memcpy (dayl, "monday.txt", sizeof "Monday.txt"); // Instead of writing the day that is going to be printed in the file, writes the name of the file.
 
     }
     else if (2==list)
@@ -57,15 +57,15 @@ int printlist()
     	return 0;
     }
 
-	lst = fopen(dayl, "r");
+	lst = fopen(dayl, "r"); // Uses the name assigned to dayl as the name of the file to open it and read it.
         if (lst == NULL)
         {
-            printf("Cannot open file \n");
+            printf("Cannot open file \n"); // This was just in case something went wrong.
             exit(0);
         }
 
     c = fgetc(lst);
-        while (c != EOF)
+        while (c != EOF)		// Prints the information from the file into the console until it reads EOF.
         {
             printf ("%c", c);
             c = fgetc(lst);
@@ -74,6 +74,6 @@ int printlist()
     printf ("\n");
     fclose(lst);
 	
-	return main();
+	return main(); 			// Return to the main (menu).
 }
 
