@@ -65,7 +65,7 @@ I chose to do this because my parents teach children in the week and there are t
       C Reference Card (ANSI)
       
       ## Self evaluation
-      1: complexity 1
+      1: complexity 2
       
       2: functionalityd 2 
 
@@ -73,7 +73,7 @@ I chose to do this because my parents teach children in the week and there are t
 
       4: storage 2 
 
-      5: documentation 3
+      5: documentation 2
 
       Total = 10/15
 
