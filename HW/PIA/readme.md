@@ -30,12 +30,12 @@ I chose to do this because my parents teach children in the week and there are t
       ```
       *Example*
        ```
-       Mauricio Ruiz Castillo	      7 p.m.		$100		Maths
-       Roberto Jimenez Ramirez      6 p.m.		$100		Arts
-       Miguel Ramirez Sanchez    5 p.m.		$200		Arts
-       Alfredo Torres Dominguez     5 p.m.		$230		English
+       Mauricio Ruiz Castillo          7 p.m.		$100		Maths
+       Roberto Jimenez Ramirez         6 p.m.		$100		Arts
+       Miguel Ramirez Sanchez          5 p.m.		$200		Arts
+       Alfredo Torres Dominguez        5 p.m.		$230		English
        Antonio Alberto Suarez Ruiz     6 p.m.		$230		Mathematics
-       Jose Alfredo Rodriguez Castillo    5 p.m.		$150		Arts
+       Jose Alfredo Rodriguez Castillo 5 p.m.		$150		Arts
       ```
       
       
