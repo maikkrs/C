@@ -65,15 +65,15 @@ I chose to do this because my parents teach children in the week and there are t
       C Reference Card (ANSI)
       
       ## Self evaluation
-      1: complexity 2
+      1: complexity 2 (It is not as difficult as the homework).
       
-      2: functionalityd 2 
+      2: functionality 2 (It works well, but I'm aware there are parts were I could have included more cases of common errors).
 
-      3: code 2
+      3: code 2 (It is not that clean).
 
-      4: storage 2 
+      4: storage 2 (I think It works fine, but I could have done something better with the files).
 
-      5: documentation 2
+      5: documentation 2 (Maybe the report is too brief).
 
       Total = 10/15
 
