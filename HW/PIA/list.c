@@ -6,7 +6,7 @@
 int printlist()
 {
 	char dayl[MaxLen], c;
-	int list;
+	int list, option;
 	FILE *lst;
 
 	printf("\n\n1 - Monday\n");
@@ -63,14 +63,17 @@ int printlist()
             printf("Cannot open file \n");
             exit(0);
         }
-	c = fgetc(lst);
-	while (c != EOF)
-	{
-	    printf ("%c", c);
-	    c = fgetc(lst);
-	}
-	printf ("\n");
-	fclose(lst);
 
+    c = fgetc(lst);
+        while (c != EOF)
+        {
+            printf ("%c", c);
+            c = fgetc(lst);
+        }
+
+    printf ("\n");
+    fclose(lst);
+	
 	return main();
 }
+

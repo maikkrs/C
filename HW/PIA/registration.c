@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
 #include "header.h"
 
@@ -60,14 +59,14 @@ int registerUser()
     	return 0;
     }
 
-    printf("Ingresa el primer nombre: ");
+    printf("Enter name: ");
     scanf("%s",user.name);
 
-    printf("Tiene segundo nombre?\n 1 - yes \n 2 - no \n");
+    printf("Does the student have a middle name?\n 1 - yes \n 2 - no \n");
     scanf("%d",&secn);
     if (1== secn)
     {
-    	printf("Ingresa el segundo nombre: ");
+    	printf("Enter middle name: ");
     	scanf("%s",user.name2);
     }
     else if (2 == secn)
@@ -80,26 +79,28 @@ int registerUser()
     	return 0;
     }
 
-    printf("Ingresa el primer apellido (Usa guion bajo para espacios): ");
+    printf("Enter the second last name (Use underscore for spaces): ");
     scanf("%s",user.ln);
 
-    printf("Ingresa el segundo apellido (Usa guion bajo para espacios): ");
+    printf("Enter the second last name (Use underscore for spaces): ");
     scanf("%s",user.ln2);
 
-    printf("Ingresa la materia(Usa guion bajo para espacios): ");
+    printf("Enter the subject (Use underscore for spaces): ");
     scanf("%s",user.topic);
 
-    printf("Ingresa el precio por la clase: ");
+    printf("Enter the price for the class: ");
     scanf("%ls",user.price);
 
 
     printf("12 hrs \n 1 pm \n 2 pm \n 3 pm \n 4 pm \n 5 pm \n 6 pm \n 7 pm \n");
-    printf("Selecciona la hora a la que inicia (solo el numero):");
+    printf("Select the time the class starts (only the number): ");
     scanf("%ls",user.hrs);
+        printf("Not a valid answer\n");
+        return 0;
 
 
     writeToFile(user, dayn, secn);
-      printf("Registrado con éxito\n\n");
+      printf("Successfully registered\n\n");
 
       return main();
 }

@@ -2,6 +2,7 @@
 #define MaxLen 15
 #define labtime 10
 
+
 typedef struct
 {
     char name[MaxLen];
@@ -14,9 +15,9 @@ typedef struct
     int hrs[labtime];
 } User;
 
+
 int registerUser();
 void writeToFile();
 int printlist();
-int sumday();
 int main();
 
