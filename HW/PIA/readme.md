@@ -13,6 +13,9 @@ I chose to do this because my parents teach children in the week and there are t
 
 * allow the user to choose from four options:
     * register a student.
+    ```
+test
+```
     * show list of students with their information.
              
 
