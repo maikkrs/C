@@ -71,7 +71,7 @@ I chose to do this because my parents teach children in the week and there are t
 
       3: code 2 (It is not that clean).
 
-      4: storage 2 (I think It works fine, but I could have done something better with the files).
+      4: storage 3 (It prints the info in files that correspond to the day).
 
       5: documentation 2 (Maybe the report is too brief).
 
