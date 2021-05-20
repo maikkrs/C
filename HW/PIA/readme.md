@@ -14,9 +14,9 @@ I chose to do this because my parents teach children in the week and there are t
    * register a student.
       ```
       * Name
-      * Middle Name
+      * Middle name
       * Last name
-      * Second Last Name
+      * Second last name
       * Day of the week
       * How much they charge
       * Hour
