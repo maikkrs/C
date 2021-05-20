@@ -65,7 +65,7 @@ I chose to do this because my parents teach children in the week and there are t
       C Reference Card (ANSI)
       
       ## Self evaluation
-      1: complexity 2 (It is not as difficult as the homework).
+      1: complexity 1 (It is not as difficult as the homeworks).
       
       2: functionality 2 (It works well, but I'm aware there are parts were I could have included more cases of common errors).
 
@@ -75,7 +75,7 @@ I chose to do this because my parents teach children in the week and there are t
 
       5: documentation 2 (Maybe the report is too brief).
 
-      Total = 11/15
+      Total = 10/15
 
 
 
