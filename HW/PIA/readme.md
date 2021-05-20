@@ -24,7 +24,7 @@ I chose to do this because my parents teach children in the week and there are t
       ```
    * show list of students with their information.
      
-     Text format
+      *Text format*
        ```
       Name MiddleName LastName SecondLastname         Time        Price       Subject
       ```
