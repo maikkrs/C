@@ -13,13 +13,13 @@ I chose to do this because my parents teach children in the week and there are t
 
    * register a student.
       ```
-      Name
-      Middle Name
-      Last name
-      Second Last Name
-      Day of the week
-      How much they charge
-      Hour
+      * Name
+      * Middle Name
+      * Last name
+      * Second Last Name
+      * Day of the week
+      * How much they charge
+      * Hour
       ```
    * show list of students with their information.
              
