@@ -22,6 +22,7 @@ I chose to do this because my parents teach children in the week and there are t
       * Hour
       * School subject/Topic
       ```
+      The program writes the information in a different text document that corresponds to the day of the week that was chosen, therefore, there are 7 text files where the    information of the students for that day is stored.
    * show list of students with their information.
      
       *Text format*
