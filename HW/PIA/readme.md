@@ -58,6 +58,8 @@ I chose to do this because my parents teach children in the week and there are t
       
       Kernighan, B. W., & Ritchie, D. M. (2006). The C programming language.
       
+      C - File I/O - Tutorialspoint. (s. f.). Tutorialspoint. https://www.tutorialspoint.com/cprogramming/c_file_io.htm
+      
       C Files I/O: Opening, Reading, Writing and Closing a file. (s. f.). Programiz. https://www.programiz.com/c-programming/c-file-input-output
       
       C Reference Card (ANSI)
