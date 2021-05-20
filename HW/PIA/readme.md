@@ -51,6 +51,9 @@ I chose to do this because my parents teach children in the week and there are t
       ```
       So they write the number and the program recognizes what day it is. Something similar happens when they choose the hour.
       
+      
+      
+      I took into account an 8-hour workday. As I already mentioned, it is based on the advice given by my parents and there are times when there are group classes in one hour, so it is also possible that several people register at the same time.
       ## References
       
       Kernighan, B. W., & Ritchie, D. M. (2006). The C programming language.
