@@ -13,7 +13,7 @@ void writeToFile(User u, int df, int scndn)
     {
         FILE *fipo = fopen("monday.txt","a");
 
-        fprintf(fipo,"\t%s", u.name);
+        fprintf(fipo,"%s", u.name);
         if (1==scndn)
         {
          fprintf(fipo," %s", u.name2);
@@ -30,7 +30,7 @@ void writeToFile(User u, int df, int scndn)
     {
         FILE *fipo = fopen("tuesday.txt","a");
 
-       fprintf(fipo,"\t%s", u.name);
+       fprintf(fipo,"%s", u.name);
         if (1==scndn)
         {
          fprintf(fipo," %s", u.name2);
@@ -47,7 +47,7 @@ void writeToFile(User u, int df, int scndn)
     {
         FILE *fipo = fopen("wednesday.txt","a");
 
-       fprintf(fipo,"\t%s", u.name);
+       fprintf(fipo,"%s", u.name);
         if (1==scndn)
         {
          fprintf(fipo," %s", u.name2);
@@ -64,7 +64,7 @@ void writeToFile(User u, int df, int scndn)
     {
         FILE *fipo = fopen("thursday.txt","a");
 
-        fprintf(fipo,"\t%s", u.name);
+        fprintf(fipo,"%s", u.name);
         if (1==scndn)
         {
          fprintf(fipo," %s", u.name2);
@@ -81,7 +81,7 @@ void writeToFile(User u, int df, int scndn)
     {
         FILE *fipo = fopen("friday.txt","a");
 
-        fprintf(fipo,"\t%s", u.name);
+        fprintf(fipo,"%s", u.name);
         if (1==scndn)
         {
          fprintf(fipo," %s", u.name2);

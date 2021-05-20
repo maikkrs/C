@@ -59,14 +59,14 @@ int registerUser()
     	return 0;
     }
 
-    printf("Enter name: ");
+    printf("Enter name(Use underscore for spaces): ");
     scanf("%s",user.name);
 
     printf("Does the student have a middle name?\n 1 - yes \n 2 - no \n");
     scanf("%d",&secn);
     if (1== secn)
     {
-    	printf("Enter middle name: ");
+    	printf("Enter middle name (Use underscore for spaces): ");
     	scanf("%s",user.name2);
     }
     else if (2 == secn)
@@ -79,7 +79,7 @@ int registerUser()
     	return 0;
     }
 
-    printf("Enter the second last name (Use underscore for spaces): ");
+    printf("Enter the first last name (Use underscore for spaces): ");
     scanf("%s",user.ln);
 
     printf("Enter the second last name (Use underscore for spaces): ");
@@ -95,9 +95,6 @@ int registerUser()
     printf("12 hrs \n 1 pm \n 2 pm \n 3 pm \n 4 pm \n 5 pm \n 6 pm \n 7 pm \n");
     printf("Select the time the class starts (only the number): ");
     scanf("%ls",user.hrs);
-        printf("Not a valid answer\n");
-        return 0;
-
 
     writeToFile(user, dayn, secn);
       printf("Successfully registered\n\n");
