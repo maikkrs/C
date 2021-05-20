@@ -38,8 +38,9 @@ I chose to do this because my parents teach children in the week and there are t
        Antonio Alberto Suarez Ruiz     6 p.m.		$230		Mathematics
        Jose Alfredo Rodriguez Castillo 5 p.m.		$150		Arts
       ```
+      ## References
       
-      
+      Kernighan, B. W., & Ritchie, D. M. (2006). The C programming language.
              
 
 
