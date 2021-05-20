@@ -1,6 +1,6 @@
 # PIA
 - - - -
-## Idea
+## Program
 
 It is a program oriented towards people who are dedicated to giving some type of private counseling or tutoring. The idea is that teachers can register their students and assign them on a specific day and time, and that they can also assign what subjects or topics they give each one and the cost of the class. It is hoped that they can also see how much (in theory) they will earn that day and the days they have free to add more students.
 
@@ -14,14 +14,19 @@ I chose to do this because my parents teach children in the week and there are t
    * register a student.
       ```
       * Name
-      * Middle name
+      * Middle name (If exists)
       * Last name
       * Second last name
       * Day of the week
       * How much they charge
       * Hour
+      * School subject/Topic
       ```
    * show list of students with their information.
+      Text format
+       ```
+      Name MiddleName LastName SecondLastname         Time        Price       Subject
+      ```
              
 
 
