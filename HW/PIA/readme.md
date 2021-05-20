@@ -2,7 +2,7 @@
 
 ## Program
 
-It is a program oriented towards people who are dedicated to giving some type of private counseling or tutoring. The idea is that teachers can register their students and assign them on a specific day and time, and that they can also assign what subjects or topics they give each one and the cost of the class. It is hoped that they can also see how much (in theory) they will earn that day and the days they have free to add more students.
+It is a program oriented towards people who are dedicated to giving some type of private counseling or tutoring. The idea is that teachers can register their students and assign them on a specific day and time, and that they can also assign what subjects or topics they give each one and the cost of the class.
 
 I chose to do this because my parents teach children in the week and there are times when they confuse each child's schedule, as well as what they charge each child.
 
