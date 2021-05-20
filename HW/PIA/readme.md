@@ -63,6 +63,15 @@ I chose to do this because my parents teach children in the week and there are t
       C Files I/O: Opening, Reading, Writing and Closing a file. (s. f.). Programiz. https://www.programiz.com/c-programming/c-file-input-output
       
       C Reference Card (ANSI)
+      
+      ## Self evaluation
+      1: complexity 1
+2: functionalityd 2 
+3: code 2
+4: storage 2 
+5: documentation 3
+Total = 10/15
+
 
 
 
