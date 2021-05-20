@@ -11,11 +11,17 @@ I chose to do this because my parents teach children in the week and there are t
    
 ## What does the program do?
 
-    * register a student.
-    ```
-   test
-   ```
-    * show list of students with their information.
+   * register a student.
+      ```
+      Name
+      Middle Name
+      Last name
+      Second Last Name
+      Day of the week
+      How much they charge
+      Hour
+      ```
+   * show list of students with their information.
              
 
 
