@@ -38,6 +38,19 @@ I chose to do this because my parents teach children in the week and there are t
        Antonio Alberto Suarez Ruiz     6 p.m.		$230		Mathematics
        Jose Alfredo Rodriguez Castillo 5 p.m.		$150		Arts
       ```
+      
+      To do both actions the program first ask for the day of the week, so it could write in the specific file. The user read something like this:
+       ```
+       1 -  Monday          
+       2 -  Tuesday    
+       3 -  Wednesday   
+       4 -  Thursday    
+       5 -  Friday    
+       6 -  Saturday    
+       7 -  Sunday    
+      ```
+      So they write the number and the program recognizes what day it is. Something similar happens when they choose the hour.
+      
       ## References
       
       Kernighan, B. W., & Ritchie, D. M. (2006). The C programming language.
