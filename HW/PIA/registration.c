@@ -10,14 +10,14 @@ int registerUser()
     int secn, dayn;
 
 
-    printf("\n\n1 - Monday\n");
+    printf("\n\n1 - Monday\n"); 
     printf("2 - Tuesday\n");
     printf("3 - Wednesday\n");
     printf("4 - Thursday\n");
     printf("5 - Friday\n");
     printf("6 - Saturday\n");
     printf("7 - Sunday\n\n");
-    printf("Select the day: ");
+    printf("Select the day: "); //First the program ask for the day. If it is an invalid answer, the program finishes.
     scanf("%d", &dayn);
 
     if (1==dayn)
@@ -59,10 +59,10 @@ int registerUser()
     	return 0;
     }
 
-    printf("Enter name(Use underscore for spaces): ");
+    printf("Enter name(Use underscore for spaces): ");  //Ask for the name.
     scanf("%s",user.name);
 
-    printf("Does the student have a middle name?\n 1 - yes \n 2 - no \n");
+    printf("Does the student have a middle name?\n 1 - yes \n 2 - no \n"); //Ask if the student have a middle name. If not, the program skip this.
     scanf("%d",&secn);
     if (1== secn)
     {
@@ -79,7 +79,7 @@ int registerUser()
     	return 0;
     }
 
-    printf("Enter the first last name (Use underscore for spaces): ");
+    printf("Enter the first last name (Use underscore for spaces): "); 
     scanf("%s",user.ln);
 
     printf("Enter the second last name (Use underscore for spaces): ");
@@ -96,7 +96,7 @@ int registerUser()
     printf("Select the time the class starts (only the number): ");
     scanf("%ls",user.hrs);
 
-    writeToFile(user, dayn, secn);
+    writeToFile(user, dayn, secn);                  //write all the information received.
       printf("Successfully registered\n\n");
 
       return main();
