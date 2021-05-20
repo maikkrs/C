@@ -75,7 +75,7 @@ I chose to do this because my parents teach children in the week and there are t
 
       5: documentation 2 (Maybe the report is too brief).
 
-      Total = 10/15
+      Total = 11/15
 
 
 
