@@ -66,10 +66,15 @@ I chose to do this because my parents teach children in the week and there are t
       
       ## Self evaluation
       1: complexity 1
+      
 2: functionalityd 2 
+
 3: code 2
+
 4: storage 2 
+
 5: documentation 3
+
 Total = 10/15
 
 
